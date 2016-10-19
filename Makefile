@@ -5,7 +5,7 @@ PROJECT_VERSION = 2.0
 DEPS = emqttd emq_dashboard emq_recon emq_reloader emq_stomp emq_mod_rewrite \
 	   emq_auth_clientid emq_auth_username emq_auth_ldap emq_auth_http \
 	   emq_auth_mysql emq_auth_pgsql emq_auth_redis emq_auth_mongo \
-	   emq_plugin_template emq_sn emq_coap emqttd_kafka_bridge
+	   emq_plugin_template emq_sn emq_coap emq_kafka_bridge
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd master
@@ -33,7 +33,7 @@ dep_emq_sn 	= git https://github.com/emqtt/emqttd_sn master
 dep_emq_coap = git https://github.com/emqtt/emqttd_coap master
 
 # emqttd kafka bridge
-dep_emqttd_kafka_bridge = git https://github.com/sudododo/emqttd_kafka_bridge master
+dep_emq_kafka_bridge = git https://github.com/sudododo/emqttd_kafka_bridge master
 
 # COVER = true
 
