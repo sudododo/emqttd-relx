@@ -33,7 +33,7 @@ dep_emq_sn 	= git https://github.com/emqtt/emqttd_sn master
 dep_emq_coap = git https://github.com/emqtt/emqttd_coap master
 
 # emqttd kafka bridge
-dep_emq_kafka_bridge = git https://github.com/sudododo/emqttd_kafka_bridge master
+dep_emq_kafka_bridge = git https://github.com/sudododo/emq_kafka_bridge master
 
 # COVER = true
 
